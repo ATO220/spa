@@ -1,0 +1,18 @@
+<h1 class="animated fast fadeIn">{{ heroe.nombre }} <small>({{ heroe.aparicion | date: "y"}})</small></h1>
+<hr>
+
+<div class="row">
+  <div class="col-md-4 text-center animated fast fadeIn">
+    <img [src]=" heroe.img " alt="" class="img-fluid pb-3">
+    <br>
+    <a href="heroes" class="btn btn-outline-primary btn-block">Regresar</a>
+  </div>
+  <div class="col-md-8 animated fadeIn">
+    <h3>{{ heroe.nombre }}</h3>
+    <hr>
+    <p>{{ heroe.bio }}</p>
+    <div>
+      <img src="" alt="">
+    </div>
+  </div>
+</div>

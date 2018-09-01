@@ -1,0 +1,10 @@
+<div class="card" >
+  <img class="card-img-top img-fluid" [src]=" heroe.img" alt="Card image cap">
+  <div class="card-body animated fadeIn">
+    <h5 class="card-title">{{ heroe.nombre }}</h5>
+    <p class="card-text">{{heroe.bio}}</p>
+    <p>{{i}}</p>
+    <p class="card-text"><small class="text-muted">{{heroe.aparicion | date:"y-MMMM"}}</small></p>
+    <button class="btn btn-outline-primary btn-block" (click)="verHeroe()">Ver más...</button>
+  </div>
+</div>
